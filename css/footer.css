@@ -1,0 +1,18 @@
+.arnato-footer{
+  height: auto;
+  background-position: bottom;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgba(97, 118, 205);
+  background-size: cover;
+}
+
+.arnato-footer p{
+  color: white;
+  font-size: 18px;
+}
+
+.info p{
+  margin: 5px auto;
+  padding: 0px auto;
+}
