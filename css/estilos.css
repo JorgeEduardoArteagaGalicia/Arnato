@@ -94,6 +94,7 @@ footer{
     text-decoration: none;
     align-items: center;
     font-size: 13px;
+    
 
 }
 footer ul{
@@ -106,7 +107,7 @@ footer ul{
 }
 footer .footer-right{
     justify-self: right;
-    text-align: justify;
+   
 }
 footer .footer-left{
     justify-self: left;
