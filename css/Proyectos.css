@@ -1,0 +1,35 @@
+.container-image{
+
+    height: 100px;
+}
+.contenedor{
+    display: flex;
+   
+}
+
+.c1 img{
+    height: 150px;
+    padding-right: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.acomodo{
+    display: flex;
+}
+.compu .compu2 .compu3{
+    text-align: center;
+}
+.compu img{
+    margin: 0;
+    height: 500px;
+    padding-right: 100px;
+}
+.compu2 img{
+    height: 500px;
+    padding-right: 100px;
+    
+}
+.compu3 img{
+    height: 500px;
+    padding-right: 100px;
+}
