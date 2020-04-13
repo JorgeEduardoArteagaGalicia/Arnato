@@ -28,4 +28,13 @@
         height: 200px;
     }
 
+    .seccionsub{
+        display: grid;
+    }
+    .seccionsub .caja .box img{
+        height: 80PX;
+    }
+    .form{
+        width: 100%;
+    }
 }
