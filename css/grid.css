@@ -1,14 +1,32 @@
 @media (max-width:900px) {
+
     header nav ul li a{
-        font-size: 16px;
+        font-size: 22px;
+       
 
     }
+ /*   header nav ul{
+        text-align: center;
+        display: grid;
+       
+    }
+    header nav ul li{
+        padding: 15px;
+
+    }*/
     .container-image{
-        height: 250px;
+        height: 200px;
 
     }
 
-    
+    .container-image2{
+        height: 120px;
+
+    }
+ 
+    .titulo{
+        text-align: center;
+    }
     .info{
         font-size: 15px;
     }
@@ -17,6 +35,7 @@
     }
     .contenido{
         font-size: 15px;
+        text-align: center;
     }
 
     .main-pack{
@@ -28,7 +47,19 @@
         height: 200px;
     }
 
-    .seccionsub{
+    .acomodo{
+        display: grid;
+    }
+    .compu{
+        text-align: center;
+    }
+    .compu img{
+        padding: 0;
+        height: 200px;
+
+    }
+  /*----------------------------------------------------------------*/ 
+  .seccionsub{
         display: grid;
     }
     .seccionsub .caja .box img{
@@ -37,4 +68,5 @@
     .form{
         width: 300px;
     }
+
 }
