@@ -50,6 +50,7 @@
         padding-bottom: 50px;
         height: 200px;
     }
+
     .acomodo{
         display: grid;
     }
@@ -69,5 +70,15 @@
     .compu img{
         padding: 0;
         height: 200px;
+
     }
+  /*----------------------------------------------------------------*/ 
+  .seccionsub{
+        display: grid;
+    }
+    .seccionsub .caja .box img{
+        height: 80PX;
+    }
+    .form{
+        width: 100%;
 }
