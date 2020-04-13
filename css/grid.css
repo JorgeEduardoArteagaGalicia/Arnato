@@ -1,7 +1,7 @@
 @media (max-width:900px) {
 
     header nav ul li a{
-        font-size: 22px;
+        font-size: 20px;
        
 
     }
@@ -49,6 +49,14 @@
 
     .acomodo{
         display: grid;
+    }
+    .contenedor{
+        display: grid;
+        text-align: center;
+    }
+    .c1 img{
+        height: 130px;
+        padding-top: 50px;
     }
     .compu{
         text-align: center;
