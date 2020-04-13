@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="./css/Proyectos.css">
     <link rel="stylesheet" href="./css/grid.css">
     <title>Arnato | Contacto</title>
+    <script>
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+    </script>
 </head>
 <body background="images/fondo1.jpg">
     <div class="container-image">
@@ -32,7 +38,7 @@
     <section class="fondo">
         <div class="main">
             <div class="info">
-                <h1>Contacto</h1>
+                <h1> </h1>
             </div>
 
             <div class="seccion1">
@@ -40,22 +46,23 @@
                 <div class="seccionsub">
                     <div class="caja">
                       <div class="box">
-                        <a href="">
+                        <a href="https://www.facebook.com/Arnato-110623487259280/">
                             <img src="images/face.png" alt="Cargando imagen...">
                         </a>
                       </div>
                     </div>
                     <div class="caja">
                       <div class="box">
-                        <a href="">
+                        <a href="https://www.instagram.com/arnatoweb/?hl=es-la">
                             <img src="images/insta.png" alt="Cargando imagen...">
                         </a>
                       </div>
                     </div>
-                    <div class="caja">
+                    <div id="popup" class="caja popup">
                       <div class="box">
-                        <a href="">
+                        <a onclick="myFunction()">
                             <img src="images/tel.png" alt="Cargando imagen...">
+                            <span class="popuptext" id="myPopup">4991033310</span>
                         </a>
                       </div>
                     </div>
