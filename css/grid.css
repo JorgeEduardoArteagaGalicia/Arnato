@@ -1,0 +1,84 @@
+@media (max-width:900px) {
+    header nav  {
+       text-align: center;
+       
+
+    }
+    header nav ul li a{
+        font-size: 20px;
+       
+
+    }
+ /*   header nav ul{
+        text-align: center;
+        display: grid;
+       
+    }
+    header nav ul li{
+        padding: 15px;
+
+    }*/
+    .container-image{
+        height: 200px;
+
+    }
+
+    .container-image2{
+        height: 120px;
+
+    }
+ 
+    .titulo{
+        text-align: center;
+    }
+    .info{
+        font-size: 15px;
+    }
+    .info-paquete{
+        font-size: 15px;
+    }
+    .contenido{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .main-pack{
+        display: grid;
+
+    }
+    .sub-paquetes img{
+        padding-bottom: 50px;
+        height: 200px;
+    }
+
+    .acomodo{
+        display: grid;
+    }
+    .contenedor{
+        display: grid;
+        text-align: center;
+    }
+    .c1 img{
+        height: 130px;
+        padding-top: 50px;
+    }
+    .compu{
+        text-align: center;
+    }
+    .compu img{
+        padding: 0;
+        height: 200px;
+
+    }
+  /*----------------------------------------------------------------*/ 
+  .seccionsub{
+        display: grid;
+    }
+    .seccionsub .caja .box img{
+        height: 80PX;
+    }
+    .form{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="icon" href="./images/Arnato.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/Proyectos.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <title>Insozac | Contacto</title>
+    <script>
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+    </script>
+</head>
+<body background="images/fondo1.jpg">
+    <div class="container-image">
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="Proyectos.html">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section class="fondo">
+        <div class="main">
+            <div class="info">
+                <h1> </h1>
+            </div>
+
+            <div class="seccion1">
+                <h1>CONTACTANOS</h1>
+                <div class="seccionsub">
+                    <div class="caja">
+                      <div class="box">
+                        <a href="https://www.facebook.com/Insozac-106163131062086/?tn-str=k*F">
+                            <img src="images/face.png" alt="Cargando imagen...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="caja">
+                      <div class="box">
+                        <a href="https://www.instagram.com/insozac/">
+                            <img src="images/insta.png" alt="Cargando imagen...">
+                        </a>
+                      </div>
+                    </div>
+                    <div id="popup" class="caja popup">
+                      <div class="box">
+                        <a onclick="myFunction()">
+                            <img src="images/tel.png" alt="Cargando imagen...">
+                            <span class="popuptext" id="myPopup">4991033310
+                            
+                        4921974220</span>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <hr>
+    <section class="form">
+        <form action="enviar2.php" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="nombre" required="required">
+                </li>
+                <li>
+                    <label for="mail">e-mail:</label>
+                    <input type="email" id="mail" name="email" required="required">
+                </li>
+                <li>
+                    <label for="msg">Mensaje:</label>
+                    <textarea id="msg" name="mensaje" required="required"></textarea>
+                </li>
+            </ul>
+            <li class="button">
+              <button type="submit">Enviar</button>
+            </li>
+        </form>
+    </section>
+    <br>
+    <br>
+    <br>
+    <footer>
+    <ul class="footer-left">
+        <li>
+            <a href=""></a>Av.Barones #15 Fracc.STUAZ Guadalpe, Zac.</a>
+        </li>
+    </ul>
+    <ul class="footer-right">
+        <li>
+            <a href="">Terminos y Condiciones</a>
+        </li>
+
+    </ul>
+</footer>
+</body>
+</html>
