@@ -74,7 +74,7 @@
 form {
   /* Centrar el formulario en la página */
   margin: 0 auto;
-  width: 400px;
+  width: 300px;
   /* Esquema del formulario */
   padding: 1em;
   border: 1px solid #CCC;
@@ -95,8 +95,8 @@ label {
   /* Tamaño y alineación uniforme */
   display: inline-block;
   width: 90px;
-  text-align: right;
-  color: white;
+  text-align: center;
+  color: white;	
 }
 
 input, 
