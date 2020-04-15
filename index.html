@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/loader.css">
     <link rel="icon" href="./images/Arnato.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/grid.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Insozac | Inicio</title>
 </head>
 <body>
+	<span id="loadpage">
+		<div class="loading">
+			<div class="obj"></div>
+			<div class="obj"></div>
+			<div class="obj"></div>
+			<div class="obj"></div>
+			<div class="obj"></div>
+			<div class="obj"></div>
+			<div class="obj"></div>
+			<div class="obj"></div>
+		</div>
+	</span>
+
+	<video src="fondo2.mp4" autoplay loop muted></video>
     <div class="container-image">
     <header>
-        
         <nav>
             <ul>
                 <li>
@@ -26,68 +41,71 @@
                 </li>
             </ul>
         </nav>
-   
     </header>
     <div class="container-logo">
         <img class="loguito" href=".index.html" src="./images/Blanco.png" alt="" >
     </div>
 </div>
 
-<div class="info">
-    <h1 class="titulo">Nuestra Empresa</h1>
-    <div class="contenido-principal">
-        <p class="contenido">En Arnato ofrecemos soluciones diferentes.
-            Soluciones que van de la mano con las necesidades reales de tú negocio.
-            Recuerda que el mundo cambia y tienes que adaptarte a él. ¡Adéntrate al mundo digital y aumenta tu capacidad de ganancia! Invierte en digital, invierte en Arnato.</p>
-    </div>
-</div>
+	<div class="info">
+	    <h1 class="titulo">Nuestra Empresa</h1>
+	    <div class="contenido-principal">
+	        <p class="contenido">En Arnato ofrecemos soluciones diferentes.
+	            Soluciones que van de la mano con las necesidades reales de tú negocio.
+	            Recuerda que el mundo cambia y tienes que adaptarte a él. ¡Adéntrate al mundo digital y aumenta tu capacidad de ganancia! Invierte en digital, invierte en Arnato.</p>
+	    </div>
+	</div>
 
-<div class="info-paquete">
-    <h1>Nuestros Paquetes</h1>
-</div>
-<br>
+	<div class="info-paquete">
+	    <h1>Nuestros Paquetes</h1>
+	</div>
+	<br>
 
-<div class="main-pack">
-    <div class="sub-paquetes">
-        <a href="Basico.html">
-            <img  src="./images/Rectangulo2.png" alt="">
-        </a>
-       
-    </div>
-    <div class="sub-paquetes">
-        <a href="Medio.html">
-            <img src="./images/Rectangulo3.png" alt="">
-        </a>
-        
-    </div>
-    <div class="sub-paquetes">
-        <a href="Pro.html">
-            <img href="" src="./images/Rectangulo4.png" alt="">
-        </a>
-        
-    </div>
+	<div class="main-pack">
+	    <div class="sub-paquetes">
+	        <a href="Basico.html">
+	            <img  src="./images/Rectangulo2.png" alt="">
+	        </a>
+	       
+	    </div>
+	    <div class="sub-paquetes">
+	        <a href="Medio.html">
+	            <img src="./images/Rectangulo3.png" alt="">
+	        </a>
+	        
+	    </div>
+	    <div class="sub-paquetes">
+	        <a href="Pro.html">
+	            <img href="" src="./images/Rectangulo4.png" alt="">
+	        </a>  
+	    </div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<footer>
+	    <ul class="footer-left">
+	        <li>
+	            <a href=""></a>Av.Barones #15 Fracc.STUAZ Guadalupe, Zac.</a>
+	        </li>
+	    </ul>
+	    <ul class="footer-right">
+	        <li>
+	            <a href="">Terminos y Condiciones</a>
+	        </li>
 
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<footer>
-    <ul class="footer-left">
-        <li>
-            <a href=""></a>Av.Barones #15 Fracc.STUAZ Guadalpe, Zac.</a>
-        </li>
-    </ul>
-    <ul class="footer-right">
-        <li>
-            <a href="">Terminos y Condiciones</a>
-        </li>
+	    </ul>
+	</footer>
 
-    </ul>
-</footer>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$("#loadpage").delay(1000).fadeOut("slow");;
+		});
+	</script>
 </body>
 </html>

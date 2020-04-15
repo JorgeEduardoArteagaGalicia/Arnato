@@ -29,6 +29,8 @@ header nav ul li a:hover{
   background-image: url('https://i.pinimg.com/236x/df/f8/ff/dff8ffdcf982dd0044966eaa9159899c--wallpaper-for-phone.jpg');
     
   height: 300px;
+  opacity: 90%;
+
 }
 .container-logo img{
     height: 150px;
@@ -66,18 +68,23 @@ header nav ul li a:hover{
     width: 100%;
     text-align: center;
     justify-content: center;
+    border-radius: 10px;
 }
 .sub-paquetes{
 display: flex;
 padding:0 30px;
+border-radius: 20px;
     
 }
 .sub-paquetes img{
   cursor: pointer;
     height: 300px;
+    border-radius: 20px;
+    opacity: 80%;
 }
 .sub-paquetes img:hover{
     box-shadow: 5px 10px 15px 0px  #13296b67;
+    opacity: 100%;
 }
 footer{
     width: 100%;
@@ -112,4 +119,17 @@ footer ul li a{
     margin: 10px;
     color: #5f6368;
     
-}   
+}
+video{
+    position: fixed;
+
+    min-width: 100%;
+    min-height: 100%;
+
+    top: 50%;
+    left: 50%;
+    
+    transform: translateX(-50%) translateY(-50%);
+
+    z-index: -1;
+}
