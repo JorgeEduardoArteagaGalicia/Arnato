@@ -48,7 +48,8 @@ header nav ul li a:hover{
     padding:0 50px;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
-    font-size: 19px;
+    font-size: 25px;
+    font-weight: bold;
     
 }
 .contenido-principal{
@@ -132,4 +133,11 @@ video{
     transform: translateX(-50%) translateY(-50%);
 
     z-index: -1;
+}
+.titulo{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.vfondo{
+    opacity: 50%;
 }
